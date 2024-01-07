@@ -1,0 +1,59 @@
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 1/7/2024 6:56:58 AM
+
+Message: Timestamp: 1/7/2024 6:56:58 AM
+Message: System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Environment.GetCompatibilityFlag(CompatibilityFlag flag)
+   at System.Security.Cryptography.RSACryptoServiceProvider..ctor(Int32 dwKeySize, CspParameters parameters, Boolean useDefaultKeySize)
+   at Telerik.Sitefinity.Licensing.SignedLicenseEnvelope.GetCryptoProvider(String signatureKey)
+   at Telerik.Sitefinity.Licensing.SignedLicenseEnvelope.CheckSignature(String signatureKey)
+   at Telerik.Sitefinity.Licensing.LicenseState.GetLicenseStateFromString(String licenseXml, Boolean validateLicense)
+   at Telerik.Sitefinity.Licensing.LicenseState.BuildCurrentLicense()
+   at Telerik.Sitefinity.Utilities.ConcurrentProperty`1.get_Value()
+   at Telerik.Sitefinity.Licensing.LicenseState.CheckIsModuleLicensedInAnyDomain(String moduleId)
+   at Telerik.Sitefinity.Multisite.MultisiteContext..ctor()
+   at Telerik.Sitefinity.Multisite.MultisiteModule.Initialize(ModuleSettings settings)
+   at Telerik.Sitefinity.Services.SystemManager.InitializeModule(ModuleSettings settings, InstallContext installContext, ModuleVersionInfo moduleVersion, Nullable`1 start, Boolean skipModuleRegistration)
+   at Telerik.Sitefinity.Services.SystemManager.Initialize()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.RegisterRoutes()
+   at Telerik.Sitefinity.Abstractions.Bootstrapper.Bootstrap()
+   at Telerik.Sitefinity.Web.SitefinityHttpModule.<>c.<BootstrapAsync>b__4_0(Object ctx)
+Category: 
+Priority: -1
+EventId: 0
+Severity: Critical
+Title:
+Machine: LUONGBAOTIN
+App Domain: /LM/W3SVC/2/ROOT-1-133490841511810617
+ProcessId: 10172
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+Thread Name: 
+Win32 ThreadId:22300
+Extended Properties: 
+
+Category: ErrorLog
+
+Priority: -1
+
+EventId: 1
+
+Severity: Information
+
+Title:
+
+Machine: LUONGBAOTIN
+
+App Domain: /LM/W3SVC/2/ROOT-1-133490841511810617
+
+ProcessId: 10172
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:22300
+
+Extended Properties: 
+----------------------------------------

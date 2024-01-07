@@ -1,0 +1,227 @@
+----------------------------------------
+Timestamp: 05/01/2024 4:06:56 SA
+
+Message: Operation: 'ApplicationRestart'. Parameters: 'flags:Default;sendRestartApplicationSystemMessage:True'. Reason: 'LicenseUpdate'. User: 'Anonymous'. StackTrace: '
+Telerik.Sitefinity.Services.SystemManager: Boolean RestartApplication(Telerik.Sitefinity.Services.OperationReason, Telerik.Sitefinity.Services.SystemRestartFlags, Boolean)
+Telerik.Sitefinity.Licensing.LicenseState: Void InvalidateLicense(Boolean)
+Telerik.Sitefinity.Licensing.Web.UI.LicenseRegistration: Void SaveLicense()
+System.Web.UI.WebControls.LinkButton: Void OnClick(System.EventArgs)
+System.Web.UI.WebControls.LinkButton: Void RaisePostBackEvent(System.String)
+System.Web.UI.Page: Void ProcessRequestMain(Boolean, Boolean)
+System.Web.UI.Page: Void ProcessRequest(Boolean, Boolean)
+System.Web.UI.Page: Void ProcessRequest()
+System.Web.UI.Page: Void ProcessRequest(System.Web.HttpContext)
+System.Web.HttpApplication+CallHandlerExecutionStep: Void System.Web.HttpApplication.IExecutionStep.Execute()
+System.Web.HttpApplication: Void ExecuteStepImpl(IExecutionStep)
+System.Web.HttpApplication: System.Exception ExecuteStep(IExecutionStep, Boolean ByRef)
+System.Web.HttpApplication+PipelineStepManager: Void ResumeSteps(System.Exception)
+System.Web.HttpApplication: System.IAsyncResult BeginProcessRequestNotification(System.Web.HttpContext, System.AsyncCallback)
+System.Web.HttpRuntime: System.Web.RequestNotificationStatus ProcessRequestNotificationPrivate(System.Web.Hosting.IIS7WorkerRequest, System.Web.HttpContext)
+System.Web.Hosting.PipelineRuntime: Int32 ProcessRequestNotificationHelper(IntPtr, IntPtr, IntPtr, Int32)
+System.Web.Hosting.PipelineRuntime: Int32 ProcessRequestNotification(IntPtr, IntPtr, IntPtr, Int32)
+System.Web.Hosting.UnsafeIISMethods: Void MgdIndicateCompletion(IntPtr, System.Web.RequestNotificationStatus ByRef)
+System.Web.Hosting.UnsafeIISMethods: Void MgdIndicateCompletion(IntPtr, System.Web.RequestNotificationStatus ByRef)
+System.Web.Hosting.PipelineRuntime: Int32 ProcessRequestNotificationHelper(IntPtr, IntPtr, IntPtr, Int32)
+System.Web.Hosting.PipelineRuntime: Int32 ProcessRequestNotification(IntPtr, IntPtr, IntPtr, Int32)'.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 05/01/2024 4:06:58 SA
+
+Message: Operation: 'ApplicationRestart'. Parameters: 'flags:Default;sendRestartApplicationSystemMessage:True'. Reason: 'LicenseUpdate'. User: 'Anonymous'. StackTrace: '
+Telerik.Sitefinity.Services.SystemManager: Boolean RestartApplication(Telerik.Sitefinity.Services.OperationReason, Telerik.Sitefinity.Services.SystemRestartFlags, Boolean)
+Telerik.Sitefinity.Licensing.LicenseState: Void InvalidateLicense(Boolean)
+Telerik.Sitefinity.Licensing.Web.UI.LicenseRegistration: Void SaveLicense()
+System.Web.UI.WebControls.LinkButton: Void OnClick(System.EventArgs)
+System.Web.UI.WebControls.LinkButton: Void RaisePostBackEvent(System.String)
+System.Web.UI.Page: Void ProcessRequestMain(Boolean, Boolean)
+System.Web.UI.Page: Void ProcessRequest(Boolean, Boolean)
+System.Web.UI.Page: Void ProcessRequest()
+System.Web.UI.Page: Void ProcessRequest(System.Web.HttpContext)
+System.Web.HttpApplication+CallHandlerExecutionStep: Void System.Web.HttpApplication.IExecutionStep.Execute()
+System.Web.HttpApplication: Void ExecuteStepImpl(IExecutionStep)
+System.Web.HttpApplication: System.Exception ExecuteStep(IExecutionStep, Boolean ByRef)
+System.Web.HttpApplication+PipelineStepManager: Void ResumeSteps(System.Exception)
+System.Web.HttpApplication: System.IAsyncResult BeginProcessRequestNotification(System.Web.HttpContext, System.AsyncCallback)
+System.Web.HttpRuntime: System.Web.RequestNotificationStatus ProcessRequestNotificationPrivate(System.Web.Hosting.IIS7WorkerRequest, System.Web.HttpContext)
+System.Web.Hosting.PipelineRuntime: Int32 ProcessRequestNotificationHelper(IntPtr, IntPtr, IntPtr, Int32)
+System.Web.Hosting.PipelineRuntime: Int32 ProcessRequestNotification(IntPtr, IntPtr, IntPtr, Int32)
+System.Web.Hosting.UnsafeIISMethods: Void MgdIndicateCompletion(IntPtr, System.Web.RequestNotificationStatus ByRef)
+System.Web.Hosting.UnsafeIISMethods: Void MgdIndicateCompletion(IntPtr, System.Web.RequestNotificationStatus ByRef)
+System.Web.Hosting.PipelineRuntime: Int32 ProcessRequestNotificationHelper(IntPtr, IntPtr, IntPtr, Int32)
+System.Web.Hosting.PipelineRuntime: Int32 ProcessRequestNotification(IntPtr, IntPtr, IntPtr, Int32)'.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/5/2024 4:14:59 AM
+
+Message: Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.Security.Data.OpenAccessProfileProvider'. User: 'Anonymous'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.TransactionManager: Void CommitTransaction(System.String)
+Telerik.Sitefinity.Abstractions.SiteInitializer: Void SaveChanges(Boolean)
+Telerik.Sitefinity.Abstractions.SiteInitializer: Void InstallDefaults()
+Telerik.Sitefinity.Services.SystemManager: Boolean Initialize()
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean RegisterRoutes()
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean Bootstrap()
+Telerik.Sitefinity.Web.SitefinityHttpModule+<>c: Void <BootstrapAsync>b__4_0(System.Object)
+System.Threading.Tasks.Task: Void Execute()
+System.Threading.ExecutionContext: Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+System.Threading.ExecutionContext: Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+System.Threading.Tasks.Task: Void ExecuteWithThreadLocal(System.Threading.Tasks.Task ByRef)
+System.Threading.Tasks.Task: Boolean ExecuteEntry(Boolean)
+System.Threading.ThreadPoolWorkQueue: Boolean Dispatch()'.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/5/2024 4:15:44 AM
+
+Message: Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.Modules.Libraries.Data.OpenAccessLibrariesProvider'. User: 'Anonymous'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.TransactionManager: Void CommitTransaction(System.String)
+Telerik.Sitefinity.Abstractions.SiteInitializer: Void SaveChanges(Boolean)
+Telerik.Sitefinity.Services.SystemManager: Telerik.Sitefinity.Services.IModule InitializeModule(Telerik.Sitefinity.Services.ModuleSettings, Telerik.Sitefinity.Services.InstallContext, ModuleVersionInfo, System.Nullable`1[System.Boolean], Boolean)
+Telerik.Sitefinity.Services.SystemManager: Boolean Initialize()
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean RegisterRoutes()
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean Bootstrap()
+Telerik.Sitefinity.Web.SitefinityHttpModule+<>c: Void <BootstrapAsync>b__4_0(System.Object)
+System.Threading.Tasks.Task: Void Execute()
+System.Threading.ExecutionContext: Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+System.Threading.ExecutionContext: Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+System.Threading.Tasks.Task: Void ExecuteWithThreadLocal(System.Threading.Tasks.Task ByRef)
+System.Threading.Tasks.Task: Boolean ExecuteEntry(Boolean)
+System.Threading.ThreadPoolWorkQueue: Boolean Dispatch()'.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/5/2024 4:16:57 AM
+
+Message: Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.Publishing.Data.OpenAccessPublishingPointDynamicTypeProvider'. User: 'Anonymous'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.TransactionManager: Void CommitTransaction(System.String)
+Telerik.Sitefinity.Services.Search.SearchModule: Void CreateAdvancedSettingsIndex()
+Telerik.Sitefinity.Services.Search.SearchModule: Void Bootstrapper_Initialized(System.Object, Telerik.Sitefinity.Data.ExecutedEventArgs)
+System.EventHandler`1: Void Invoke(System.Object, TEventArgs)
+Telerik.Sitefinity.Abstractions.Bootstrapper: Void OnInitialized(System.Object, Telerik.Sitefinity.Data.ExecutedEventArgs)
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean Bootstrap()
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean Bootstrap()
+Telerik.Sitefinity.Web.SitefinityHttpModule+<>c: Void <BootstrapAsync>b__4_0(System.Object)
+System.Threading.Tasks.Task: Void Execute()
+System.Threading.ExecutionContext: Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+System.Threading.ExecutionContext: Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+System.Threading.Tasks.Task: Void ExecuteWithThreadLocal(System.Threading.Tasks.Task ByRef)
+System.Threading.Tasks.Task: Boolean ExecuteEntry(Boolean)
+System.Threading.ThreadPoolWorkQueue: Boolean Dispatch()'.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/5/2024 4:16:58 AM
+
+Message: Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.Publishing.Data.OpenAccessPublishingPointDynamicTypeProvider'. User: 'Anonymous'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.TransactionManager: Void CommitTransaction(System.String)
+Telerik.Sitefinity.Services.Search.SearchModule: Void CreateContentBackendIndex()
+Telerik.Sitefinity.Services.Search.SearchModule: Void Bootstrapper_Initialized(System.Object, Telerik.Sitefinity.Data.ExecutedEventArgs)
+System.EventHandler`1: Void Invoke(System.Object, TEventArgs)
+Telerik.Sitefinity.Abstractions.Bootstrapper: Void OnInitialized(System.Object, Telerik.Sitefinity.Data.ExecutedEventArgs)
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean Bootstrap()
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean Bootstrap()
+Telerik.Sitefinity.Web.SitefinityHttpModule+<>c: Void <BootstrapAsync>b__4_0(System.Object)
+System.Threading.Tasks.Task: Void Execute()
+System.Threading.ExecutionContext: Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+System.Threading.ExecutionContext: Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+System.Threading.Tasks.Task: Void ExecuteWithThreadLocal(System.Threading.Tasks.Task ByRef)
+System.Threading.Tasks.Task: Boolean ExecuteEntry(Boolean)
+System.Threading.ThreadPoolWorkQueue: Boolean Dispatch()'.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/5/2024 4:16:58 AM
+
+Message: Operation: 'ModelReset'. Parameters: 'notify:True'. Reason: 'MetaDataChange|InvalidatedModules:Telerik.Sitefinity.Publishing.Data.OpenAccessPublishingPointDynamicTypeProvider'. User: 'Anonymous'. StackTrace: '
+Telerik.Sitefinity.Data.OA.OpenAccessConnection: Void ResetModel(Telerik.Sitefinity.Services.OperationReason, Boolean)
+Telerik.Sitefinity.Data.TransactionManager: Void CommitTransaction(System.String)
+Telerik.Sitefinity.DataIntelligenceConnector.DataIntelligenceConnectorModule: Void CreateContentRecommendationsPublishingPoint()
+Telerik.Sitefinity.DataIntelligenceConnector.DataIntelligenceConnectorModule: Void Bootstrapper_Initialized(System.Object, Telerik.Sitefinity.Data.ExecutedEventArgs)
+System.EventHandler`1: Void Invoke(System.Object, TEventArgs)
+Telerik.Sitefinity.Abstractions.Bootstrapper: Void OnInitialized(System.Object, Telerik.Sitefinity.Data.ExecutedEventArgs)
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean Bootstrap()
+Telerik.Sitefinity.Abstractions.Bootstrapper: Boolean Bootstrap()
+Telerik.Sitefinity.Web.SitefinityHttpModule+<>c: Void <BootstrapAsync>b__4_0(System.Object)
+System.Threading.Tasks.Task: Void Execute()
+System.Threading.ExecutionContext: Void RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+System.Threading.ExecutionContext: Void Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+System.Threading.Tasks.Task: Void ExecuteWithThreadLocal(System.Threading.Tasks.Task ByRef)
+System.Threading.Tasks.Task: Boolean ExecuteEntry(Boolean)
+System.Threading.ThreadPoolWorkQueue: Boolean Dispatch()'.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/01/2024 2:08:20 SA
+
+Message: Scheduler: Task executed: 'Telerik.Sitefinity.ExternalNotifications.ExternalNotificationsRetrieverTask'. Start time: 06/01/2024 2:08:20 SA. End time: 06/01/2024 2:08:20 SA. Task data: '{}'
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/01/2024 2:08:20 SA
+
+Message: Scheduler: Task executed: 'Telerik.Sitefinity.Services.Notifications.Scheduling.NotificationsCleanupTask'. Start time: 06/01/2024 2:08:20 SA. End time: 06/01/2024 2:08:20 SA. Task data: ''
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/01/2024 2:08:20 SA
+
+Message: Scheduler: Task executed: 'Telerik.Sitefinity.ServiceHooks.Scheduling.ServiceHooksActivitiesCleanupTask'. Start time: 06/01/2024 2:08:20 SA. End time: 06/01/2024 2:08:20 SA. Task data: ''
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/01/2024 2:08:20 SA
+
+Message: Scheduler: Task executed: 'Telerik.Sitefinity.Versioning.Cleaner.VersioningCleanerTask'. Start time: 06/01/2024 2:08:20 SA. End time: 06/01/2024 2:08:20 SA. Task data: ''
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/01/2024 2:08:21 SA
+
+Message: Scheduler: Task executed: 'Telerik.Sitefinity.ABTesting.Scheduling.ABTestsSyncTask'. Start time: 06/01/2024 2:08:20 SA. End time: 06/01/2024 2:08:21 SA. Task data: ''
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/01/2024 2:08:21 SA
+
+Message: Scheduler: Task executed: 'Telerik.Sitefinity.Authentication.Data.TransientDataCleanupTask'. Start time: 06/01/2024 2:08:20 SA. End time: 06/01/2024 2:08:21 SA. Task data: ''
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/01/2024 2:08:21 SA
+
+Message: Scheduler: Task executed: 'Telerik.Sitefinity.Translations.Synchronization.TranslationSyncTask'. Start time: 06/01/2024 2:08:20 SA. End time: 06/01/2024 2:08:21 SA. Task data: ''
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/6/2024 2:08:24 AM
+
+Message: Scheduler: Task executed: 'Telerik.Sitefinity.Translations.Synchronization.TranslationImportTask'. Start time: 1/6/2024 2:08:24 AM. End time: 1/6/2024 2:08:24 AM. Task data: ''
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 06/01/2024 2:08:28 SA
+
+Message: Scheduler: Task executed: 'Telerik.Sitefinity.UsageTracking.Scheduling.UsageTrackingTask'. Start time: 06/01/2024 2:08:20 SA. End time: 06/01/2024 2:08:28 SA. Task data: ''
+
+
+----------------------------------------

@@ -1,0 +1,186 @@
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 1/6/2024 2:24:06 AM
+
+Message: HandlingInstanceID: 40e9fb12-2d74-4507-bd06-5dffbec1e089
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+01/06/2024 09:24:06
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=15.0.8223.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access ControlData item with id 6aa88d27-45b1-4886-8e05-854cd8e08bac that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : T GetControl[T](System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_90787cf4630d4e388ee42080db35abd9.GetControl[T](Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetControl[T](Guid id)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.ReloadControl(ZoneEditorWebServiceArgs state, IControlManager manager)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : LUONGBAOTIN
+TimeStamp : 1/6/2024 2:24:06 AM
+FullName : Telerik.Sitefinity.Utilities, Version=15.0.8223.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-2-133489804596684931
+ThreadIdentity : luongbaotin2019@gmail.com
+WindowsIdentity : IIS APPPOOL\sfdemo.local
+Requested URL : http://sfdemo.local/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/?package=Bootstrap5
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: LUONGBAOTIN
+
+App Domain: /LM/W3SVC/2/ROOT-2-133489804596684931
+
+ProcessId: 19820
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8796
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 1/6/2024 2:24:08 AM
+
+Message: HandlingInstanceID: 1c6ee852-7eb3-405b-9a5b-b8840751c17d
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+01/06/2024 09:24:08
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=15.0.8223.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access PageDraftControl item with id 6aa88d27-45b1-4886-8e05-854cd8e08bac that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : T GetControl[T](System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_90787cf4630d4e388ee42080db35abd9.GetControl[T](Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetControl[T](Guid id)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.DeleteControl(ZoneEditorWebServiceArgs state, IControlManager manager)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : LUONGBAOTIN
+TimeStamp : 1/6/2024 2:24:08 AM
+FullName : Telerik.Sitefinity.Utilities, Version=15.0.8223.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-2-133489804596684931
+ThreadIdentity : luongbaotin2019@gmail.com
+WindowsIdentity : IIS APPPOOL\sfdemo.local
+Requested URL : http://sfdemo.local/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/?package=Bootstrap5
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: LUONGBAOTIN
+
+App Domain: /LM/W3SVC/2/ROOT-2-133489804596684931
+
+ProcessId: 19820
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8796
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 1/6/2024 2:24:12 AM
+
+Message: HandlingInstanceID: 59fde12f-0974-4242-9ea6-f891b1c07331
+An exception of type 'Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException' occurred and was caught.
+-------------------------------------------------------------------------------------------------------------
+01/06/2024 09:24:12
+Type : Telerik.Sitefinity.SitefinityExceptions.ItemNotFoundException, Telerik.Sitefinity, Version=15.0.8223.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : You are trying to access ControlData item with id 6aa88d27-45b1-4886-8e05-854cd8e08bac that no longer exists. The most probable reason is that it has been deleted by another user.
+Source : Unity_ILEmit_DynamicClasses
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : T GetControl[T](System.Guid)
+HResult : -2146233088
+Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessPageProvider_90787cf4630d4e388ee42080db35abd9.GetControl[T](Guid id)
+   at Telerik.Sitefinity.Modules.Pages.PageManager.GetControl[T](Guid id)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.ReloadControl(ZoneEditorWebServiceArgs state, IControlManager manager)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorService.UpdateState(ZoneEditorWebServiceArgs state, Boolean isLayoutControl)
+   at SyncInvokeUpdateControlState(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : LUONGBAOTIN
+TimeStamp : 1/6/2024 2:24:12 AM
+FullName : Telerik.Sitefinity.Utilities, Version=15.0.8223.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-2-133489804596684931
+ThreadIdentity : luongbaotin2019@gmail.com
+WindowsIdentity : IIS APPPOOL\sfdemo.local
+Requested URL : http://sfdemo.local/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/?package=Bootstrap5
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: LUONGBAOTIN
+
+App Domain: /LM/W3SVC/2/ROOT-2-133489804596684931
+
+ProcessId: 19820
+
+Process Name: c:\windows\system32\inetsrv\w3wp.exe
+
+Thread Name: 
+
+Win32 ThreadId:8796
+
+Extended Properties: 
+----------------------------------------
